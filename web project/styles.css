@@ -1,0 +1,191 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration-style:solid;
+    color:#FFFFFF;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #210232;
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+  }
+  
+  .logo h1 {
+    font-size: 30px;
+    margin: 0;
+    color: whitesmoke;
+  }
+  
+  nav ul {
+    display: inline-block;
+    justify-content: flex-end;
+    padding:0px;
+    margin:auto;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+    display: inline-block;
+    padding:10px;
+    margin:auto;
+    
+  
+  }
+  nav ul li:hover{
+    background-color: #c3b8d2;
+    border-radius: 5px;
+    
+    
+   
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #2a1d5c54;
+    padding: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 15px;
+  
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #17053561;
+    color: #534b88;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    border-image:round ;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #7110a8;
+    border-radius: 5px;
+  }
+  
+  /* Featured Recipes Section */
+  .featured-recipes {
+    padding: 50px;
+    background-color: #4589e748;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .recipe-card {
+ 
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #050323c5;
+    color: #FFFFFF;
+    border-radius: 15px;
+  
+  }
+  
+  .recipe-card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    border-radius: 15px;
+  }
+  
+  .recipe-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px;
+    background-color: hsla(277, 65%, 20%, 0.858);
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #4b105700;
+    color: #FFFFFF;
+    border-radius: 15px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+  
+  .contact form textarea {
+    height: 120px;
+  }
+  
+  .contact form button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #9C27B0;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #c3b8d2;
+    color: #080118;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  
